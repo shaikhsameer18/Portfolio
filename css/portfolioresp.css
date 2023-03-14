@@ -1,0 +1,80 @@
+@media only screen and (max-width: 650px) {
+    nav img{
+        visibility: hidden;
+    }
+    #navbar ul {
+        border: 1px solid white;
+        background-color: var(--main-gray);
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        font-size: 3rem;
+        padding-top: 100px;
+        overflow: scroll;
+        max-height: 100px;
+
+    }
+
+    #navbar {
+        position: fixed;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    #about{
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 75em) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+
+@media (max-width: 28.75em) {
+    .projects-section-header {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 30.625em) {
+    .projects-section {
+        padding: 6rem 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 28.75em) {
+    .contact-section-header>h2 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 28.75em) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
